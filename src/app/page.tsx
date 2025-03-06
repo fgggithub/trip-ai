@@ -30,8 +30,11 @@ export default function Home() {
         <h1 className=" text-4xl  font-bold  text-gray-900 sm:text-6xl ">
           Meet Your Personal<br></br> <span className=" text-blue-600">Trip Planner AI </span>
           <p className=" mt-10 font-medium   text-lg  max-w-prose text-gray-900 ">
-            Simply type few travel requirements using the format requirement1,
+            Simply type few travel reuirements using the format requirement1,
             requirement2,..etc and Trip Planner AI will generate an multi day itinerary for you
+          </p>
+          <p className=" mt-10 font-medium   text-lg  max-w-prose text-gray-900 ">
+           Example: Rome, 3 days, food classes, coliseum, 4 star hotels, family friendly
           </p>
         </h1>
       </div>
@@ -46,7 +49,7 @@ export default function Home() {
             id="ingredients"
             name="ingredients"
             required
-            placeholder="Rome, 3 days, food classes, colosseum, 4 star hotels, family friendly, etc"
+            placeholder="Ingredient1, Ingredient2, Ingredient3,..etc"
             className="border border-black  text-gray-900 p-4 rounded-lg max-w-full w-full text-xl "
           />
           <button
