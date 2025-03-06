@@ -6,8 +6,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Recipe AI Generator",
-  description: "Meet Your Personal Recipe AI",
+  title: "Trip AI Generator",
+  description: "Meet Your Personal Trip Planning AI",
 };
 
 export default function RootLayout({
