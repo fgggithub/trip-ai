@@ -4,9 +4,10 @@ export function request(ctx) {
   const prompt = `Suggest a travel itinerary these requirements : ${ingredients.join(
     ","
   )}.`;
-
+  //resourcePath: `/model/anthropic.claude-3-sonnet-20240229-v1:0/invoke`,
+  //anthropic.claude-3-haiku-20240307-v1:0
   return {
-    resourcePath: `/model/anthropic.claude-3-sonnet-20240229-v1:0/invoke`,
+    resourcePath: `/model/anthropic.claude-3-haiku-20240307-v1:0/invoke`,
     method: "POST",
     params: {
       headers: {
