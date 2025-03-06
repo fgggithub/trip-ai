@@ -34,7 +34,7 @@ export default function Home() {
             requirement2,..etc and Trip Planner AI will generate an multi day itinerary for you
           </p>
           <p className=" mt-10 font-medium   text-lg  max-w-prose text-gray-900 ">
-           Example: Rome, 3 days, food classes, coliseum, 4 star hotels, family friendly
+           Example: Rome, 3 days, food classes, colosseum, 4 star hotels, family friendly
           </p>
         </h1>
       </div>
